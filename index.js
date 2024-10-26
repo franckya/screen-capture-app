@@ -13,7 +13,18 @@ app.get('/', (req, res) => {
 // Capture route to take a screenshot
 app.get('/capture', async (req, res) => {
   try {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+      headless: true,
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-gpu',
+        '--no-zygote',
+        '--single-process'
+      ]
+    });
+
     const page = await browser.newPage();
     
     // Open any URL for capture; change as needed
