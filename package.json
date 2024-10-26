@@ -1,0 +1,23 @@
+{
+  "name": "screen-capture-app",
+  "version": "1.0.0",
+  "description": "Project Overview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franckya/screen-capture-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franckya/screen-capture-app/issues"
+  },
+  "homepage": "https://github.com/franckya/screen-capture-app#readme",
+  "dependencies": {
+    "puppeteer": "^23.6.0"
+  }
+}
