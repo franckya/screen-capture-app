@@ -1,4 +1,5 @@
 Project Overview
+
 Objective: Develop a robust pipeline in Azure DevOps to build Docker images from source code, test and scan images, and push them securely to Azure Container Registry (ACR). This journey will enhance your understanding of CI/CD for containerized applications, automation, and best practices for security and efficiency.
 
 Project Phases & Schedule
